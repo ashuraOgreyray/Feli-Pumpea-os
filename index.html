@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Para ti ✦</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@1,9..144,300;1,9..144,600&family=DM+Sans:wght@400&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <canvas id="sky"></canvas>
+
+  <audio id="music" src="audio.mp3/RiskItAll.mp3" loop preload="auto"></audio>
+  <button id="musicBtn" class="music-btn" type="button" aria-label="Pausar música" hidden>♪</button>
+
+  <section id="hero">
+    <h1 id="title">
+      <span class="line">Feliz cumple,</span>
+      <span class="line">Cielo</span>
+    </h1>
+
+    <button id="tap" type="button">Toca ✦</button>
+
+    <svg id="heart" viewBox="0 0 200 180" aria-hidden="true">
+      <path d="M100 165C30 115 5 80 5 52 5 25 26 8 50 8c20 0 39 12 50 32C111 20 130 8 150 8c24 0 45 17 45 44 0 28-25 63-95 113z"/>
+      <circle cx="50"  cy="8"   r="3" style="--d:.1"/>
+      <circle cx="150" cy="8"   r="3" style="--d:.5"/>
+      <circle cx="5"   cy="52"  r="3" style="--d:.9"/>
+      <circle cx="195" cy="52"  r="3" style="--d:.3"/>
+      <circle cx="100" cy="165" r="3" style="--d:.7"/>
+      <circle cx="100" cy="40"  r="3" style="--d:1.1"/>
+    </svg>
+
+    <div class="down" aria-hidden="true">⌄</div>
+  </section>
+
+  <section id="gallery">
+    <figure class="pic">
+      <img src="img/cielo1.jpg.jpeg" alt="Mi niña">
+      <figcaption>Mi Cielo</figcaption>
+    </figure>
+
+    <figure class="pic">
+      <img src="img/cielo9.jpg.jpeg" alt="mi estrella">
+      <figcaption>Mi Inspiracion</figcaption>
+    </figure>
+
+    <figure class="pic">
+      <img src="img/cielo9.jpeg" alt="Mi debilidad">
+      <figcaption>Mi Dulce Encanto</figcaption>
+    </figure>
+  </section>
+
+  <section id="end">
+    <canvas id="hc"></canvas>
+    <p>Eres mi estrella favorita</p>
+    <small>toca el corazón</small>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
